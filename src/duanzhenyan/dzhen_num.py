@@ -16,4 +16,4 @@ def str_2_num(s: str):
         else:
             return s
     except KeyError:
-        raise 'type is error'
+        raise Exception('type is error')
